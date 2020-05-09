@@ -1,0 +1,95 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   transition: all 0.2s;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   /* height: 100vh; */
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+   background-color: #edeef0;
+
+   font-family: "Arial", sans-serif;
+   font-size: 16px;
+}
+
+.container {
+   width: 90%;
+   margin: 0 auto;
+}
+
+main {
+   width: 100%;
+   margin-top: 50px;
+}
+
+.vk--block {
+   padding: 15px 20px;
+   margin-bottom: 15px;
+
+   /* width: 100%; */
+
+   background: #fff;
+   border-radius: 4px;
+   box-shadow: 0 1px 0 0 #d7d8db,
+   0 0 0 1px #e3e4e8;
+}
+
+.vk__main.main {
+   display: flex;
+   justify-content: flex-start;
+}
+.vk__main.main .main__avatar {
+   border-radius: 2px;
+}
+.vk__main.main .main__title {
+   width: 100%;
+   margin-left: 20px;
+}
+.vk__main.main .main__title .main__fio {}
+.vk__main.main .main__title .main__fio span {}
+.vk__main.main .main__title .main__bday {
+   font-size: 1.125rem;
+   font-weight: bold;
+}
+.vk__main.main .main__title .main__bday span {
+   font-weight: normal;
+   font-size: 1em;
+}
+.vk__user.user {
+   padding-top: 12px;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+.user .user__link {
+   text-align: center;
+   text-decoration: none;
+}
+.vk__friends h2 {
+   display: flex;
+   align-items: center;
+}
+.vk__friends h2 span {
+   margin-left: 5px;
+   font-size: 0.7em;
+   color: rgba(0, 0, 0, 0.5);
+}
+.user .user__link img {
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   object-fit: cover;
+   object-position: center;
+}
+.user .user__link .user__name {}

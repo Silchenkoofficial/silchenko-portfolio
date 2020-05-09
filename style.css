@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+   box-sizing: border-box;
+   transition: all 0.2s;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   height: 100vh;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+
+   font-family: Arial, sans-serif;
+   font-size: 16px;
+}
+
+a {
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: rgb(25, 187, 241);
+   color: #fff;
+
+   border-radius: 50px;
+   box-shadow: 0 4px 4px rgb(212, 212, 212);
+
+   font-size: 1.125rem;
+   font-weight: 600;
+   text-decoration: none;
+}
+
+a:active {
+   box-shadow: none;
+   transform: translateY(4px);
+}
